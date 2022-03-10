@@ -1,0 +1,23 @@
+.weatherContainer{
+    p{
+        font-size: 25px;
+        color: #16a864;
+        text-align: center;
+        margin-top: 100px;
+        @media screen and (max-width: 414px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 280px) {
+            font-size: 15px;
+        }
+    }
+    table{
+        margin-top: 50px;
+        border-color: #16a864 !important;
+        text-align: center;
+        color: #16a864 !important;
+        th{
+            width: 50%;
+        }
+    }
+}

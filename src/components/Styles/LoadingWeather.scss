@@ -1,0 +1,22 @@
+
+.loader-container{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .loader{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: none;
+      border-top: 3px solid #16a864;
+      border-right: 3px solid #16a864;
+      animation: loading 1s infinite linear;
+      @keyframes loading {
+        to{
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
